@@ -24,12 +24,14 @@ background-color:turquoise;
   left: 50%;
   transform: translateX(-50%);
 }
+.top-abs{
+  position: relative;
+}
 .box-top{
   width: 50px;
   height: 270px;
   background-color: #363030;
   position: absolute;
-  top: 68vh;
   left: 50%;
   transform: translateX(-50%);
   z-index: -2;
